@@ -22,5 +22,5 @@ if __name__ == '__main__':
     elif command == 'sum3':
         print(add_all(nums) + 3)
     else:
-        usage="calc.py incorrect bla"
+        usage="calc.py incorrect bla 222"
         print(usage)
