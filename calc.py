@@ -19,6 +19,8 @@ if __name__ == '__main__':
         print(min(nums))
     elif command =='max':
         print(max(nums))
+    elif command == 'sum3':
+        print(add_all(nums) + 3)
     else:
         usage="calc.py incorrect bla"
         print(usage)
