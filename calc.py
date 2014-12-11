@@ -15,6 +15,5 @@ if __name__ == '__main__':
         print(add_all(nums))
     elif command =='multiply':
         print(multiply_all(nums))
-    else:
-        usage = "calc.py [add|multiply] NUM1 [NUM2 [NUM3 [...]]]"
-        print(usage)
+    elif command =='min':
+        print(min(nums))
