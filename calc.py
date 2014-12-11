@@ -19,3 +19,6 @@ if __name__ == '__main__':
         print(min(nums))
     elif command =='max':
         print(max(nums))
+    else:
+        usage="calc.py incorrect bla"
+        print(usage)
