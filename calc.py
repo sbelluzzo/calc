@@ -21,6 +21,8 @@ if __name__ == '__main__':
         print(max(nums))
     elif command == 'sum3':
         print(add_all(nums) + 3)
+    elif command == 'sub6':
+        print(add_all(nums) - 6)
     else:
         usage="calc.py incorrect bla 222"
         print(usage)
