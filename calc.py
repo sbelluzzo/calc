@@ -20,6 +20,8 @@ if __name__ == '__main__':
         print(multiply_all(nums))
     elif command =='difference':
         print(diff_all(nums))
+    elif command == 'multi3':
+        print(multiply_all(n * 3 for n in nums))
     elif command =='min':
         print(min(nums))
     elif command =='max':
